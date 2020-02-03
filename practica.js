@@ -1,6 +1,7 @@
 //funcion generadora * con iterador next
 //https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Set
 //https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Iterators_and_Generators
+//https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/function*
 
 function* fibonacci(){
     var fn1 = 1;
