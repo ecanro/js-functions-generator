@@ -1,4 +1,4 @@
-//Map y no map
+//Map y no map, diccionario de diccionarios!!!
 //https://wiki.developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Map
 
 var miMapa = new Map();
