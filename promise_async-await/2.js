@@ -11,3 +11,6 @@ const xPromise = new Promise((resolve) => {
     xPromise.then((foo) => {
     console.log(foo)
     })
+
+    //** throw and cach para errors */
+    //** y async await */
