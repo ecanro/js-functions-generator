@@ -1,4 +1,4 @@
-$(windows).on('load', function(){
+$(document).on('load', function(){
    
 
 
@@ -8,7 +8,7 @@ $('button').click(function (e) {
     });
 
     $.ajax({
-        url: "/api/getWeather",
+        url: "htto://api.openweathermap.org/data/2.5/forecast?id=524901&APPID=1111111111",
         data: {
           zipcode: 97201
         },
