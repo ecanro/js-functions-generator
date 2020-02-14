@@ -8,12 +8,12 @@ $(document).ready(function(){
         const textInput1 = input1.val();
         const textInput2 = input2.val();
 
-       
-            
+        const aNewtext = $('a').attr('href').length > 0;
+        const aNewLink = $('a[href=""]')
         
         // const aNew = $('a').attr('href').length == 0;
-         const textLink = ('a[href != 0]').val(textInput1);
-         const varLink = ('a[href = ""]').attr('href ',textInput2)
+         aNewtext = (aNewtext).attr('text',textInput1);
+         aNewLink= (aNewLink).attr('href ',textInput2)
             
         
    
